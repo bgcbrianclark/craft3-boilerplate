@@ -17,8 +17,8 @@ craft.bat
 
 
 ### SITE MEDIA FILES
-web/uploads/*
-web/imager/*
+# web/uploads/*
+# web/imager/*
 
 
 ### DEVELOPMENT FILES
