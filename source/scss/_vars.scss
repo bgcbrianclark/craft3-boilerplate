@@ -1,0 +1,47 @@
+/** MIXINS **/
+/* Breakpoints */
+$scr-sm: 375px;
+$scr-md: 768px;
+$scr-lg: 992px;
+$scr-xl: 1200px;
+$scr-wide: 1600px;
+
+@mixin sm-screen() {
+  @media only screen and (min-width: $scr-sm) {
+    @content;
+  }
+}
+@mixin md-screen() {
+  @media only screen and (min-width: $scr-md) {
+    @content;
+  }
+}
+@mixin lg-screen() {
+  @media only screen and (min-width: $scr-lg) {
+    @content;
+  }
+}
+@mixin xl-screen() {
+  @media only screen and (min-width: $scr-xl) {
+    @content;
+  }
+}
+@mixin wide-screen() {
+  @media only screen and (min-width: $scr-wide) {
+    @content;
+  }
+}
+
+@mixin desktop-screen() {
+  @media only screen and (min-width: 1200px) and (min-height: 850px) {
+    @content;
+  }
+}
+
+/** COLOR VARS **/
+$clr1: #000;
+
+$clr-white: #ffffff;
+$clr-light: #eeeeee;
+
+$clr-error: #d02f2f;

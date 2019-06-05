@@ -1,0 +1,35 @@
+/** Text Variables **/
+$bodyFont: Muli, Helvetica, Arial, sans-serif;
+$headerFont: Muli, Helvetica, Arial, sans-serif;
+
+$clr-text: #000;
+$clr-header: #000;
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $clr-text;
+  font-family: $bodyFont;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: $clr-header;
+  font-family: $headerFont;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 1.5em;
+}

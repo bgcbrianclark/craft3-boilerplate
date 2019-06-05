@@ -22,9 +22,11 @@ web/imager/*
 
 
 ### DEVELOPMENT FILES
-/source
+
+# /source
+# /gulpfile.js
+# /package-lock.json
+# /package.json
+
 /.ftpconfig
 /comps
-/gulpfile.js
-/package-lock.json
-/package.json

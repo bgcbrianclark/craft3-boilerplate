@@ -1,6 +1,6 @@
 # Craft CMS 3 Page Structure Boilerplate
 
-- Copy all files and Root folders to project root
+- Copy all files and Root folders to project root:
 
   - gulpfile.js
 
@@ -10,6 +10,8 @@
 
   - /source
 
-- Remove /templates/index.php, replace with everything in /templates folder
+- Remove /templates/index.php, replace with everything in /templates folder.
 
-- Add folders within local /web to project /web folder
+- Add folders within local /web to project /web folder.
+
+- Update .gitignore to add /source and development files to ignore.

@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: $clr1;
+  text-decoration: none;
+}
