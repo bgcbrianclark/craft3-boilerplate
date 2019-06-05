@@ -19,11 +19,11 @@
 ### Add Common Plugins from CLI (from project root)
 
 - [Contact Form](https://github.com/craftcms/contact-form)  
-  `composer require craftcms/contact-form`
+  `composer require craftcms/contact-form`  
   `./craft install/plugin contact-form`
 
 - [Contact Form Extensions](https://github.com/riasvdv/craft-contact-form-extensions/blob/master/README.md)  
-  `composer require rias/craft-contact-form-extensions`
+  `composer require rias/craft-contact-form-extensions`  
   `./craft install/plugin contact-form-extensions`
 
 - [SEO](https://github.com/ethercreative/seo)  
